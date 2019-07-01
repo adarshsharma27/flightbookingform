@@ -1,0 +1,105 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <title>Example</title>
+  <meta charset="utf-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1">
+  <link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/bootstrap/4.3.1/css/bootstrap.min.css">
+  <script src="https://ajax.googleapis.com/ajax/libs/jquery/3.4.1/jquery.min.js"></script>
+  <script src="https://cdnjs.cloudflare.com/ajax/libs/popper.js/1.14.7/umd/popper.min.js"></script>
+  <script src="https://maxcdn.bootstrapcdn.com/bootstrap/4.3.1/js/bootstrap.min.js"></script>
+  <link href="https://fonts.googleapis.com/css?family=Lato&display=swap" rel="stylesheet">
+  <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/5.8.2/css/all.css" integrity="sha256-39jKbsb/ty7s7+4WzbtELS4vq9udJ+MDjGTD5mtxHZ0=" crossorigin="anonymous" />
+  
+  <style>
+    body{
+      background-color:#dff9fb;
+      font-family: 'Lato',sans-serif;
+    }
+  .container{
+    margin-top: 131px;
+    background-image: linear-gradient( to top, #dfe4ea , #d1d8e0);
+    width: 870px;
+    height: 249px;
+    border-radius: 15px;
+    box-shadow: 0px 0px 2px 2px#bdc3c7;
+    z-index: 2;
+  }
+  button{
+    margin: 35px auto;
+  }
+  input{
+    position:relative;
+    color:#45aaf2
+    font-fam
+  }
+  .fa-plane{
+    position: absolute;
+    left: 577px;
+    top: 163px;
+    z-index: 2;
+    font-size: 1.3rem;
+    color: #4bcffa;
+  }
+  .btn-primary{
+    background-color: #45aaf2;
+    border: 1px dashed #45aaf2;
+    color:white;
+    font-size: 17px;
+    letter-spacing: 1px;
+  }
+ 
+    .fa-calendar {
+    position: absolute;
+    z-index: 2;
+    font-size: 1.3rem;
+    color: #4bcffa;
+    left: 416px;
+    top: 251px;
+}
+.calendar-2{
+  position: absolute;
+    z-index: 2;
+    font-size: 1.3rem;
+    color: #4bcffa;
+    left: 651px;
+    top: 251px;
+}
+
+.fa-credit-card{
+ 
+  position: absolute;
+    z-index: 2;
+    font-size: 1.3rem;
+    color: #4bcffa;
+    left: 900px;
+    top: 251px;
+
+}  
+h5{
+  margin:0 auto;
+}
+  </style>
+</head>
+<body>
+     <div class="container-1">
+      
+    <div>
+<div class="container"> 
+  <form class="form-inline" >
+    <input type="text" style="width:387px;margin-top: 24px;margin-right: 45px;    margin-left: 21px;" class="form-control" id="email" placeholder=" Travel From ">
+    <i class="fa fa-plane"></i>
+    <input type="text"  style="width:387px; margin-top: 24px;" class="form-control" id="pwd" placeholder=" Travel To" >
+    <input type="date" class="form-control  " style="width:240px;margin-top: 50px;margin-right: 5px; margin-left: 50px" id="pwd" placeholder=" Departure Date" >
+    <i class="fa fa-calendar calendar-2"></i>
+    <i class="fa fa-calendar"></i><input type="date" class="form-control" style="width:240px;margin-top: 50px;margin-right: 5px;"id="pwd" placeholder="Returning Date" >
+    <i class="fa fa-credit-card"></i><input type="text" class="form-control" style="width: 240px;margin-top: 50px;margin-right: 5px;"id="pwd" placeholder="Ticket Type" >
+    <button type="submit" style="width: 190px;     margin-top: 35px;" class="btn btn-primary">Search Flight</button>
+
+   
+    
+  </form>
+</div>
+
+</body>
+</html>
